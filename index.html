@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/grid.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/repsonsive.css">
+    <title>My Diary</title>
+</head>
+<body>
+    <main>
+        <section class="glass grid wide">
+                <div class="row">
+                    <div class="col l-3 c-12 ">
+                        <div class="dashboard">
+                            <!-- profile user -->
+                            <div class="users">
+                                <div class="user">
+                                    <img src="./img/huynh-phuc-loi.jpg" alt="" class="users__avarta">
+                                </div>
+                                <h3 class="users__name">Huỳnh Lợi</h3>
+                                <h4>Admin</h4>
+                            </div>
+                            <!-- Navigation pc -->
+                            <div class="links">
+                                <div class="links__link active" id="home">
+                                    <span class="indicatior">
+                                        <i class='bx bx-home'></i>
+                                    </span>
+                                    <h2>Home</h2>
+                                </div>
+                                <div class="links__link" id="Write">
+                                    <span class="indicatior">
+                                        <i class='bx bx-edit'></i>
+                                    </span>
+                                    <h2>Write</h2>    
+                                </div>
+                                <div class="links__link" id="Family">
+                                    <span class="indicatior">
+                                        <i class="fa-solid fa-people-roof"></i>
+                                    </span>           
+                                    <h2>Family</h2>
+                                </div>
+                                <div class="links__link" id="Libary">
+                                    <span class="indicatior">
+                                        <i class='bx bx-book-open'></i>
+                                    </span>
+                                    <h2>Diary</h2>
+                                </div>
+                                <div class="links__link" id="Help">
+                                    <span class="indicatior">
+                                        <i class='bx bx-help-circle' ></i>
+                                    </span>
+                                    <h2>Help</h2>
+                                </div>
+                                <div class="links__link" id="Setting">
+                                    <span class="indicatior">
+                                        <i class="fa-solid fa-gear"></i>
+                                    </span>
+                                    <h2>Setting</h2>
+                                </div>
+                               <!-- <div class="indicatior">
+                               </div>        -->
+                            </div>
+                            <div class="access">
+                                <div class="social">
+                                    <a href="" class="social__link">
+                                        <i class="fa-brands fa-facebook social__facebook"></i>
+                                    </a>
+                                    <a href="" class="social__link">
+                                        <i class="fa-brands fa-github social__github"></i>
+                                    </a>
+                                    <a href="" class="social__link">
+                                        <i class="fa-brands fa-instagram social__instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="social__bacg">
+                                    <img src="./img/ket_noi.png" class="social__img" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-9 c-12">
+                        <!-- subnavigation -->
+                        <header class="header">
+                            <div class="row box-header">
+                                <div class="col l-4">    <!-- topic -->
+                                    <!-- <div class="wrap">
+                                        <div class="wrap__topic">
+                                            <i class="fa-solid fa-address-card card-topic"></i>
+                                        </div>
+                                        <ul class="topics ">
+                                            <li class="topic__item">
+                                                <p class="topic__item-title">
+                                                    Cần Làm
+                                                </p>
+                                            </li>
+                                            <li class="topic__item">
+                                                <p class="topic__item-title">
+                                                    Quan trọng
+                                                </p>
+                                            </li> 
+                                             <li class="topic__item">
+                                                <p class="topic__item-title">
+                                                    Từ từ
+                                                </p>
+                                            </li>
+                                            <li class="topic__item">
+                                                <p class="topic__item-title">
+                                                    Đã xong
+                                                </p>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div> -->
+                                    <!-- search -->
+                                <h1 class="logo">LoiHuynhPhuc - CDCNTT</h1>
+                                </div>
+                                <div class="col l-4">
+                                    <div class="search">
+                                        <input type="text" class="search__control" placeholder="Tìm Kiếm tại đây">
+                                        <button class="search__icon ">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col l-4">
+                                    <div class="switch">
+                                        <input type="checkbox" class="switch__checkbox" name="input_swicth">
+                                     </div>
+                                </div>
+                            </div>        
+                           
+                        </header>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col l-4 m-0 c-0">
+                                    <section class="libary">
+                                        
+                                            <div class="libary__box">
+                                                <div class="libary__box-infor">
+                                                    <i class="fa-solid fa-trash-can"></i>
+                                                    <span class="libary__box-infor__time" >9/7/2022</span>
+                                                    <span class="libary__box-infor__color complete"></span>
+                                                </div>
+                                                <div class="libary-content">
+                                                    <h2 class="libary-content__title">Một ngày tuyệt vời của tôi Một ngày tuyệt vời của tôi</h2>
+                                                    <p class="libary-content__note">
+                                                        Chuyến hành trình tuổi 20 với vô vàng khó khăn và thử thách nhưng tôi sẽ luôn vượt qua
+                                                        để vươn tới ước mơ của mình.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                      
+   
+                                    </section>
+                                </div>
+                                <div class="col l-8 m-12 c-12 ">
+                                    <section id="box-content">
+                                           <div class="page-home">
+                                               <div class="home-box">
+                                                  <ul class="home-box__items">
+                                                      <li class="home-box__item">Favorite</li>
+                                                      <li class="home-box__item">Sports</li>
+                                                      <li class="home-box__item">Group</li>
+                                                  </ul>
+                                                  <div class="home-box__content">
+                                                      
+                                                  </div>
+                                               </div>
+                                           </div>
+                                    </section>
+                                </div>
+                            </div>
+                  
+                        </div>
+                        <footer class="footer">
+
+                        </footer>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <div class="circel-one "></div>
+    <div class="circel-two"></div>
+    <div class="circel-three change"></div>
+</body>
+<script src="./js/app.js"></script>
+</html>

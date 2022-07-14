@@ -1,0 +1,28 @@
+/* mobile and tablet */
+@media (max-width: 1023px){
+    .header{
+        width: 100%;
+    }
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+ }
+ /* table */
+ @media (min-width: 740px) and (max-width: 1023px){
+   #box-content{
+       margin-right: -26px;
+   }
+ }
+ /* mobile */
+ @media (max-width: 739px){
+    .form__control, .form__control-sub{
+        max-width: 380px;
+    }
+    #box-content{
+        margin-right: -26px;
+    }
+    .diary__content-introduce{
+        font-size: 1.6rem;
+    }
+ }
+ 
